@@ -1,4 +1,4 @@
-# 🛍️ Shaddai's Shop
+# 🛍️ Shaddai's Shop v2.0
 
 > Prototipo de tienda web **mobile-first** para pequeños comercios y emprendimientos, diseñado para consultar productos, filtrar el catálogo, gestionar un carrito de compras y preparar pedidos mediante pagos rápidos efectuados de inmediato vía WhatsApp.
 
