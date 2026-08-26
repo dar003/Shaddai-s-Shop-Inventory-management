@@ -111,6 +111,18 @@ El carrito muestra:
 - Total de la compra
 - Equivalencia en VES
 
+### 📦 Gestión de inventario
+
+La aplicación incluye una vista dedicada al control del stock de cada producto. Desde un panel exclusivo (accesible mediante un botón en la barra lateral) es posible:
+
+- Consultar la cantidad disponible actual de cada producto.
+- Ajustar el stock mediante botones `+` y `−` o ingresando directamente un número.
+- Visualizar el estado del producto: **Disponible**, **Stock bajo** o **Agotado**.
+- Ver cuántas unidades de cada producto están reservadas en el carrito en ese momento.
+- Guardar los cambios de forma persistente en el navegador, de manera que el inventario se mantenga incluso al recargar la página.
+
+El inventario se integra con el flujo de compra: al añadir un producto al carrito, se descuenta automáticamente una unidad del stock disponible, y al retirarlo del carrito, se devuelve. Esto evita sobreventas y mantiene la coherencia entre el stock real y los pedidos en curso.
+
 ### 📋 Lista de precios
 
 Alterna entre la vista tradicional del catálogo y una vista compacta especialmente pensada para consultar rápidamente los precios.
@@ -193,7 +205,7 @@ Vista principal orientada a descubrir productos rápidamente.
 
 **Catálogo — productos, precios, valoraciones y acciones de compra**
 
-![Catálogo de productos](assets/images/home.jpg)
+![Catálogo de productos](assets/images/inventario-product.jpg)
 
 ---
 
@@ -213,7 +225,17 @@ Panel lateral dedicado a revisar los productos seleccionados antes del checkout.
 
 **Shopping Cart — cantidades, subtotales y total**
 
-![Carrito de compras](assets/images/carrito.jpg)
+![Carrito de compras](assets/images/inventario-button.jpg)
+
+---
+
+### 📦 Inventario
+
+Panel de control de stock accesible desde el menú lateral. Permite ajustar la disponibilidad de cada producto de forma manual, visualizar el estado del inventario y guardar los cambios persistentemente.
+
+**Inventory Management — stock, estado y reservas en carrito**
+
+![Inventario](assets/images/inventario-button.jpg)
 
 ---
 
@@ -243,7 +265,7 @@ El checkout transforma el contenido del carrito en un mensaje estructurado para 
 
 **[Abrir la aplicación en GitHub Pages](https://dar003.github.io/Shaddai-s-Shop-Inventory-management/)**
 
-La demo funciona directamente desde el navegador y permite interactuar con el catálogo, filtros, carrito, lista de precios y conversión USD/VES.
+La demo funciona directamente desde el navegador y permite interactuar con el catálogo, filtros, carrito, lista de precios, conversión USD/VES y el nuevo módulo de inventario.
 
 ---
 
@@ -408,6 +430,25 @@ También es posible incrementar o reducir cantidades directamente desde la inter
 
 ---
 
+## 📦 Gestión de inventario
+
+El módulo de inventario está diseñado para mantener actualizada la disponibilidad de productos en tiempo real.
+
+### Funcionamiento
+
+- Vista exclusiva: Se accede desde un botón en la barra lateral y muestra una cuadrícula con todos los productos.
+- Control de stock: Cada producto muestra un campo numérico con botones + y − para ajustar la cantidad.
+- Estado visual: Los productos se marcan como Disponible, Stock bajo (≤ 3 unidades) o Agotado (0 unidades).
+- Reservas en carrito: Se indica cuántas unidades de cada producto están actualmente en el carrito, permitiendo al vendedor saber qué stock está comprometido.
+- Persistencia: Todos los cambios se guardan automáticamente en el almacenamiento local del navegador, de modo que el inventario se mantiene entre sesiones.
+- Confirmación de cambios: Un botón global "Guardar inventario" permite aplicar todos los ajustes pendientes de una sola vez, con un indicador visual del número de productos modificados.
+
+### Integración con el carrito
+
+Al añadir un producto al carrito, se resta una unidad del stock disponible. Si se retira del carrito, esa unidad se devuelve al inventario. Esto garantiza que el stock mostrado refleje siempre la cantidad realmente disponible para la venta.
+
+---
+
 ## 📲 Flujo de pedido por WhatsApp
 
 Cuando el usuario procede al checkout, la aplicación genera un mensaje estructurado.
@@ -495,6 +536,7 @@ El proyecto continúa en desarrollo.
 - [x] Checkout mediante WhatsApp
 - [x] Visualización ampliada de productos
 - [x] Carrusel de productos destacados
+- [x] Gestión de inventario y persistencia de stock
 - [x] Separar HTML, CSS y JavaScript cuando el proyecto lo requiera
 - [x] Añadir capturas oficiales al README
 
