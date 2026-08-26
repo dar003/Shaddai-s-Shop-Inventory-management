@@ -241,7 +241,7 @@ El checkout transforma el contenido del carrito en un mensaje estructurado para 
 
 ### ▶ Probar Shaddai's Shop
 
-**[Abrir la aplicación en GitHub Pages](https://dar003.github.io/Shaddai-s-Shop-Prototipo-de-Ventas/)**
+**[Abrir la aplicación en GitHub Pages](https://dar003.github.io/Shaddai-s-Shop-Inventory-management/)**
 
 La demo funciona directamente desde el navegador y permite interactuar con el catálogo, filtros, carrito, lista de precios y conversión USD/VES.
 
@@ -291,13 +291,13 @@ Esto permite abrir el proyecto directamente en un navegador o publicarlo mediant
 Clona el repositorio:
 
 ```bash
-git clone https://github.com/dar003/Shaddai-s-Shop-Prototipo-de-Ventas.git
+git clone https://github.com/dar003/Shaddai-s-Shop-Inventory-management.git
 ```
 
 Entra en el proyecto:
 
 ```bash
-cd Shaddai-s-Shop-Prototipo-de-Ventas
+cd Shaddai-s-Shop-Inventory-management
 ```
 
 Después abre:
@@ -331,7 +331,7 @@ http://localhost:8000
 Actualmente el repositorio mantiene una estructura minimalista:
 
 ```text
-Shaddai-s-Shop-Prototipo-de-Ventas/
+Shaddai-s-Shop-Inventory-management/
 │
 ├── index.html
 └── README.md
@@ -344,7 +344,7 @@ La simplicidad es intencional: el proyecto se encuentra actualmente en una etapa
 A medida que el proyecto crezca, la estructura puede evolucionar hacia:
 
 ```text
-Shaddai-s-Shop-Prototipo-de-Ventas/
+Shaddai-s-Shop-Inventory-management/
 │
 ├── index.html
 ├── README.md
@@ -557,11 +557,11 @@ Proyecto desarrollado como prototipo de una solución de comercio web orientada 
 
 ### 🔗 Proyecto
 
-**[Shaddai's Shop — GitHub](https://github.com/dar003/Shaddai-s-Shop-Prototipo-de-Ventas)**
+**[Shaddai's Shop — GitHub](https://github.com/dar003/Shaddai-s-Shop-Inventory-management)**
 
 ### 🌐 Demo
 
-**[Abrir Shaddai's Shop](https://dar003.github.io/Shaddai-s-Shop-Prototipo-de-Ventas/)**
+**[Abrir Shaddai's Shop](https://dar003.github.io/Shaddai-s-Shop-Inventory-management/)**
 
 ---
 
