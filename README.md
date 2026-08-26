@@ -44,7 +44,7 @@
       Catálogo y productos
     </td>
     <td align="center" width="33%" style="border: 1px solid #444; padding: 16px; vertical-align: top;">
-      <img src="assets/images/carrito.jpg"
+      <img src="assets/images/inventario-button.jpg"
            width="80%"
            alt="Carrito">
       <br><br>
@@ -52,12 +52,12 @@
       Productos y pedido
     </td>
     <td align="center" width="33%" style="border: 1px solid #444; padding: 16px; vertical-align: top;">
-      <img src="assets/images/checkout.jpg"
+      <img src="assets/images/inventario-main.jpg"
            width="80%"
-           alt="Checkout">
+           alt="Inventario">
       <br><br>
-      <strong>Checkout</strong><br>
-      Pedido por WhatsApp
+      <strong>Inventario</strong><br>
+      Gestión de Stock
     </td>
   </tr>
 </table>
