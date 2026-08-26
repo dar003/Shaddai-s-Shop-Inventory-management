@@ -63,7 +63,7 @@
 </table>
 
 
-### 🌐 Shaddai's Shop · [▶ Probar la demo en vivo](https://dar003.github.io/Shaddai-s-Shop-Prototipo-de-Ventas/)
+### 🌐 Shaddai's Shop · [▶ Probar la demo en vivo](https://dar003.github.io/Shaddai-s-Shop-Inventory-management/)
 
 Una experiencia de compra ligera y optimizada para dispositivos móviles.
 
