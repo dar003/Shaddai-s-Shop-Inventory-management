@@ -235,7 +235,7 @@ Panel de control de stock accesible desde el menú lateral. Permite ajustar la d
 
 **Inventory Management — stock, estado y reservas en carrito**
 
-![Inventario](assets/images/inventario-button.jpg)
+![Inventario](assets/images/inventario-10.jpg)
 
 ---
 
